@@ -1,0 +1,27 @@
+\bibitem{at17} A. K. Aniyan and K. Thorat, ``Classifying Radio Galaxies with Convolutional Neural Networks,'' \emph{The Astrophysical Journal Supplement Series}, \textbf{230}, 2, June 2017, pp. 15.
+
+\bibitem{crumb} F. A. M. Porter and A. M. M. Scaife, ``MiraBest: A Data Set of Morphologically Classified Radio Galaxies for Machine Learning'', \emph{RAS Techniques and Instruments}, \textbf{2}, 1, January 2023, pp. 293-306.
+  
+\bibitem{config} M. A. Gendre, P. N. Best, and J. V. Wall, ``The Combined NVSS-FIRST Galaxies (CoNFIG) Sample - II. Comparison of Space Densities in the Fanaroff-Riley Dichotomy'', \emph{Monthly Notices of the Royal Astronomical Society}, \textbf{404}, 4, June 2010, pp. 1719-1732. 
+  
+\bibitem{frdeep} H. Tang, A. M. M. Scaife, and J. P. Leahy, ``Transfer learning for radio galaxy classification,'' \emph{Monthly Notices of the Royal Astronomical Society}, \textbf{488}, 3, September 2019, pp. 3358-3375.
+  
+\bibitem{frgmrc} K. Brand, et al., ``Feature Guided Training and Rotational Standardization for the Morphological Classification of Radio Galaxies,'' \emph{Monthly Notices of the Royal Astronomical Society}, \textbf{522}, 1, June 2023, pp. 292-311.
+
+\bibitem{fricat} A. Capetti, F. Massaro, and R. D. Baldi, ``FRICAT: A FIRST Catalog of FR I Radio Galaxies,'' \emph{Astronomy and Astrophysics}, \textbf{598}, 1, February 2017, pp. 32.
+  
+\bibitem{friicat} A. Capetti, F. Massaro, and R. D. Baldi, ``FRIICAT: A FIRST Catalog of FR II Radio Galaxies,'' \emph{Astronomy and Astrophysics}, \textbf{601}, 1, May 2017, pp. 16.
+  
+\bibitem{fr0} R. D. Baldi, A. Capetti, and F. Massaro, ``FR0CAT: A FIRST Catalog of FR 0 Radio Galaxies,'' \emph{Astronomy and Astrophysics}, \textbf{609}, 1, January 2018, pp. 10.
+  
+\bibitem{rgd} F. Griese, et al., ``FIRST: Radio Galaxy Data Set Containing Curated Labels of Classes FRI, FRII, compact and bent,'' \emph{Data in Brief}, \textbf{47}, 1, April 2023, pp. 108974.
+  
+\bibitem{lrg} Z. Ma, et al., ``A Machine Learning Based Morphological Classification of 14,245 Radio AGNs Selected from the Best-Heckman Sample,'' \emph{Astrophysical Journal Supplement Series}, \textbf{240}, 2, February 2019, pp. 21.
+  
+\bibitem{mirabest} H. Miraghaei and P. N. Best, ``The Nuclear Properties and Extend Morphologies of Powerful Radio Galaxies: The Roles of Host Galaxy and Environment,'' \emph{Monthly Notices of the Royal Astronomical Society}, \textbf{466}, 4, April 2017, pp. 4346-4363. 
+  
+\bibitem{lomorph} B. Mingo, et al., ``Revisiting the Fanaroff-Riley Dichotomy and Radio-Galaxy Morphology with the LOFAR Two-Metre Sky Survey (LoTSS),'' \emph{Monthly Notices of the Royal Astronomical Society}, \textbf{488}, 2, September 2019, pp. 2701-2721.
+
+\bibitem{proctor} D. D. Proctor, ``Morphological Annotations for Groups in the First Database,'' \emph{Astrophysical Journal Supplement Series}, \textbf{194}, 2, June 2011, pp. 33.
+  
+\bibitem{rgz} O. I. Wong, et al., ``Radio Galaxy Zoo Data Release 1: 100185 radio source classifications from the FIRST and ATLAS Surveys,'' \emph{Monthly Notices of the Royal Astronomical Society}, \textbf{536}, 4, February 2025, pp. 3488-3506.
