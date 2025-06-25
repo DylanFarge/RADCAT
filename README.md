@@ -1,14 +1,14 @@
 # RADCAT (Radio Analysis of Duplicates CATalogue)
 
-`RADCAT` is an amulgimation of existing catalogues in literature where the usage of the Vertex Cover Heuristc is employed to detect unique radio sources that does not get duplicate references being catalogued during compilation. Furthermore, `RADCAT` is comprised out of  radio sources that have been observed not only in the __FIRST__ and __NVSS__ surveys, but also the __LoTSS__ survey. 
+`RADCAT` is an amulgimation of existing catalogues in literature where the usage of the Vertex Cover Heuristc is employed to remove duplicate sources during catalogue compilation. Furthermore, `RADCAT` is comprised out of  radio sources that have been observed not only in the __FIRST__ and __NVSS__ surveys, but also the __LoTSS__ survey. 
 
-With the inclusion of six new `RADCAT` dataset that can be found on [Zenodo](XXX), we facilitate the evaluation of various machine learning models that can leverage multi-modal survey inputs to enhance classification accuracy. This includes testing different transfer learning approaches across surveys with varying resolution and sensitivity, as well as exploring cross-survey image generation techniques. The six datasets that depict the sources catalogued in `RADCAT in` are:
+`RADCAT` was used to construct six dataset (that can be found on [Zenodo](https://zenodo.org/records/14718007)), and as such its purpose is to facilitate various machine learning models that can leverage multi-modal survey inputs to enhance classification accuracy. This includes testing different transfer learning approaches across surveys with varying resolution and sensitivity, as well as exploring cross-survey image generation techniques. The six datasets that depict the sources catalogued in `RADCAT` are:
 
 1) `RADCAT-F` (Image dataset with fixed pixel resolution across surveys).
 1) `RADCAT-Fc` (RADCAT-F with sigma clipping applied).
 1) `RADCAT-V` (Image dataset with varying pixel resolution across surveys).
-1) `RADCAT-Vc` (RADCAT-F with sigma clipping applied).
-1) `RADVIS `(Gridded visibilities dataset).
+1) `RADCAT-Vc` (RADCAT-V with sigma clipping applied).
+1) `RADVIS `(Reverse engineered visibilities dataset).
 1) `RADVISc` (RADVIS with sigma clipping applied to the images before reverse engineering visibilities).
 
 ## Column Headings of `RADCAT.csv`:
@@ -21,13 +21,13 @@ With the inclusion of six new `RADCAT` dataset that can be found on [Zenodo](XXX
 - DECm          - Arcminute part of declination.
 - DECs           - Arcsecond part of declination.
 - Catalog       - Radio source origin.
-- Type            - Morphological label used in this paper.
+- Type            - `RADCAT` morphological label.
 - RA/deg       - Right ascension in degrees.
 - DEC/deg     - Declination in degrees.
-- Divergence - Various morphological labels assigned to the same source by different authors.
-- Original       - The morphological label of the source associated with the original catalogue.   
+- Divergence - Morphological labels of source as per the constituent catalogues of `RADCAT`.
+- Original       - Morphological label of source as per the source's original catalogue.   
 
-## Additional files are provided to aid the paper that is soon to be uploaded. 
+## Additionally, supplemental files are provided which are described below.
 1) _data_excluded.zip_                  - All sources excluded during the construction of the final RADCAT, due to reasons titled in the filenames.
 1) _graph_theory_approach.py_   - The noval approach to radio astronomy at removing duplicate sources.  
 1) _read_augmentations.ipynb_   - An example of how to read the augmentations files inside the dataset zip files an how to use them.
