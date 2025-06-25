@@ -33,4 +33,5 @@ With the inclusion of six new `RADCAT` dataset that can be found on [Zenodo](XXX
 1) _read_augmentations.ipynb_   - An example of how to read the augmentations files inside the dataset zip files an how to use them.
 1) _source_ids_test.txt_                - The source ids that correspond to a RADCAT row entry that were used in the test set during research.
 1) _source_ids_val_train.txt_        - The source ids that correspond to a RADCAT row entry that were used in the training set during research.
+1) _Catalogue References.txt_     - The references used in the paper to compile `RADCAT`.
 1) _threshold_search.csv_            - The source pairs and their distances that fell between the interval [0.005, 0.072] degrees. The 'same' or 'diff' tag was manually assigned upon visual inspection. This aided in obtaining a threshold. 
